@@ -2,7 +2,7 @@
 ## Autor: Luan Fellipe (allen08)
 
 ## Descrição:
-### Projeto de construção de uma aplicação de previsão da cotação do dólar usando redes neurais LSTM (Long Short-Term Memory) e Kubernetes. O modelo é alimentado com dados históricos da cotação do dólar e a aplicação é disponibilizada como uma API (FastAPI) para previsões em tempo real.
+### Projeto de construção de uma aplicação de previsão da cotação do dólar usando redes neurais LSTM (Long Short-Term Memory) e Kubernetes. O modelo é alimentado com dados da cotação do dólar (2014 a 2024) e possui uma API (FastAPI) para previsões em tempo real dos valores.
 
 ## [*] Bibliotecas para execução
 - pip install -r requirements.txt
