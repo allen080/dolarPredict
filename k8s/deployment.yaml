@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dollar-forecast
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: dollar-forecast
+  template:
+    metadata:
+      labels:
+        app: dollar-forecast
+    spec:
+      containers:
+      - name: dollar-forecast
+        image: your-dockerhub-username/dollar-forecast:latest
+        ports:
+        - containerPort: 80
